@@ -5,3 +5,13 @@ function theme_enqueue_styles() {
 
 }
 ?>
+
+<?php
+add_action('wp_footer', 'add_googleanalytics');
+function add_googleanalytics() {
+?>
+// Paste your Google Analytics code from Step 4 here
+<?php 
+} 
+?>
+

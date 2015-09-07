@@ -11,7 +11,18 @@
 	Tags:         	light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
 	Text Domain:  	wpex-portafolio-child
 */
-
+@import url(https://fonts.googleapis.com/css?family=Roboto:500);
+a,p,h1,h2,h3,h4, span {font-family: 'Roboto', sans-serif;font-weight: normal;}
+#home-portfolio .heading,
+#single-portfolio-related .heading {
+    border-top: none;
+    border-bottom: none;
+}
+.features-entry h3 {
+	font-style:normal;
+	font-family: 'Roboto', sans-serif;
+	min-height:54px;
+}
 .slide-inner {position:relative;}
 .slide-inner h2 {
 	position: absolute;
